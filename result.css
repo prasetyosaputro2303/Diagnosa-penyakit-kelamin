@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+*,
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: "poppins", sans-serif;
+}
+/* .body {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.container1 {
+    max-width: 100%;
+    width: 1200px;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    opacity: .7;
+    background: rgb(240, 248, 255);
+    background: linear-gradient(0deg, rgba(240, 248, 255, 1) 10%, rgba(200, 226, 249, 1) 70%, rgba(109, 214, 227, 0.6) 100%);
+} */
+
+/* table {
+    position: absolute;
+    z-index: 2;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    border-collapse: collapse;
+    border-radius: 12px 12px 0 0;
+    border-spacing: 0;
+    overflow: hidden;
+    box-shadow: 0 5px 5px rgba(109, 214, 227, 0.6);
+    border: 1px solid black;
+} */
+.body {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    max-width: 100%;
+    width: 1200px;
+    /* padding: 100px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 500px; */
+    /* background-color: black; */
+}
+
+.content {
+    border-collapse: collapse;
+    /* padding: 12px 15px; */
+    margin: 25px auto;
+    min-width: 400px;
+    /* width: 100%; */
+}
+th, td {
+    padding: 12px 15px;
+    border-bottom: 1px solid black;
+}
+
+th {
+    border-bottom: 1px solid black;
+}
+
+td {
+    padding-left: 20px;
+}
+
+.border {
+    border-right: 1px solid black;
+}
+
+.data {
+    padding-left: 30px;
+}
+
+.button {
+    border: none;
+    background-color: rgba(200, 226, 249, 1);
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    clip-path: polygon(15% 0%, 100% 0%, 100% 100%, 15% 100%, 0% 50%);
+}

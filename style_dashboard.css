@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+*,
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: "poppins", sans-serif;
+}
+
+.body {
+    display: flex;
+    justify-content: center;
+}
+
+.title h2 {
+    display: flex;
+    align-items: left;
+}
+.container {
+    max-width: 100%;
+    width: 1200px;
+    /* padding: 100px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* height: 500px; */
+    /* background-color: black; */
+}
+.content {
+    border-collapse: collapse;
+    /* padding: 12px 15px; */
+    margin: 25px 50px;
+    min-width: 400px;
+    /* width: 100%; */
+}
+.content td:nth-child(1){
+    border-right: 1px solid black;
+}
+.content td:nth-child(2) {
+    border-right: 1px solid black;
+}
+.border {
+    border-right: 1px solid black;
+}
+.content th, td {
+    padding: 12px 15px;
+}
+.content th {
+    background: aliceblue;
+}
+.content tr:nth-of-type(even) {
+    background: linear-gradient(to top, white,aliceblue, white);
+}
+.content tr {
+    border-bottom: 1px solid rgb(146, 182, 232);
+}
+.content tr:last-of-type { 
+    border-bottom: 3px solid rgb(146, 182, 232);
+}
+.content td:nth-child(3) .content td:nth-child(3){
+    width: 60px;
+}
+
+.content img {
+    max-width: 35px;
+    height: auto;
+    display: block;
+    margin: 0px auto;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+/* 
+.delete{
+    display: flex;
+    justify-content: center;
+    border: none;
+    align-items: center;
+} */
+
+.desc {
+    border-right: 1px solid black;
+    text-align: justify;
+}
